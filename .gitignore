@@ -1,0 +1,14 @@
+/MachineCodeAuthentication/.vs
+/MachineCodeAuthentication/ipch
+/MachineCodeAuthentication/*.sdf
+/MachineCodeAuthentication/*.suo
+/MachineCodeAuthentication/MachineCodeAuthenticationDLL/Debug
+/MachineCodeAuthentication/ReadMachineCode/Debug
+/MachineCodeAuthentication/Debug/*.exp
+/MachineCodeAuthentication/Debug/*.pdb
+/MachineCodeAuthentication/MachineCodeAuthenticationTest/Debug
+/MachineCodeAuthentication/MachineCodeAuthenticationTest/x64
+/MachineCodeAuthentication/MachineCodeAuthenticationDLL/x64
+/MachineCodeAuthentication/ReadMachineCode/x64
+/MachineCodeAuthentication/x64/Debug/*.pdb
+/MachineCodeAuthentication/x64/Debug/*.exp

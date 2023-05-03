@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ReadMachineCode">
+      <UniqueIdentifier>{cbed8b77-2f1c-48bf-b7d5-8582dbe5e238}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReadMachineCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMachineCodeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\AES_Decrypt.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\CCheckMachineCode.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\des.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\Encryption.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\global.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineCode\md5.h">
+      <Filter>ReadMachineCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReadMachineCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMachineCodeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\AES_Decrypt.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\CCheckMachineCode.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\des.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\Encryption.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\md5.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineCode\md5cal.cpp">
+      <Filter>ReadMachineCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ReadMachineCode.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ReadMachineCode.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ReadMachineCode.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
