@@ -58,6 +58,13 @@ CCheckMachineCode::CCheckMachineCode()
 	//初始化机器码表，每新增一台设备都要在此添加对应的机器码。
 	mlistMachineCode.insert(pair<CString, int>(CString("BFEBFBFF000A06528C8CAA961664"), 0));
 	//mlistMachineCode.insert(pair<CString, int>(CString("BFEBFBFF000A06528C8CAA961664"), 0));
+	//Win7 虚拟机
+	mlistMachineCode.insert(pair<CString, int>(CString("1F8BFBFF000A0652000C295EE192"), 0));
+	//行程单打印 PC1
+	mlistMachineCode.insert(pair<CString, int>(CString("BFEBFBFF000906EA000C291DBFD6"), 0));
+	//行程单打印 PC2
+	mlistMachineCode.insert(pair<CString, int>(CString("BFEBFBFF000306C3000C291DBFD6"), 0));
+	
 }
 
 CCheckMachineCode::~CCheckMachineCode()

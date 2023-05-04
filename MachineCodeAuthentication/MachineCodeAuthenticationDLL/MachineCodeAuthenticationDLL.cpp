@@ -66,5 +66,7 @@ BOOL CMachineCodeAuthenticationDLLApp::InitInstance()
 int CheckMachineCodeAuthentication()
 {
 	CCheckMachineCode tCCheckMachineCode;
+
+	tCCheckMachineCode.AnalysisMachineCode(_T("20BBE883CABB9FC734056653964FC42BE5866B0313E56CFD26F06C5BAA0E37FA"));
 	return tCCheckMachineCode.CheckMachineCode();
 }
